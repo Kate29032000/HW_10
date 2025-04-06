@@ -1,0 +1,25 @@
+    1  git config --global user.name "Kateryna Petykhachna"
+    2  git config --global user.email katepetykhachnaya@gmail.com
+    3  git clone https://github.com/Kate29032000/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add .gitignore
+    9  git commit -m "New mode"
+   10  touch main_test.txt
+   11  git add main_test.txt
+   12  git commit -m "New mode2"
+   13  git checkout -b Develop
+   14  git checkout Develop
+   15  touch develop_test.txt
+   16  git add develop_test.txt
+   17  git commit -m "New mode3"
+   18  nano develop_test.txt file
+   19  git status
+   20  git add develop_test.txt
+   21  git commit -m "New mode4"
+   22  git checkout main
+   23  git merge Develop
+   24  git log
+   25  history > command_list.csv
